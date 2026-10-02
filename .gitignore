@@ -2,6 +2,24 @@ reference/
 기획.md
 .기획.md
 ai-log/
+/demo-plan/
+
+# Local documentation and planning notes
+*.md
+
+# Local dependencies, generated output, and Vercel settings
+node_modules/
+.npm-cache/
+npm-debug.log*
+dist/
+build/
+coverage/
+.vercel/
+
+# Local environment values
+.env
+.env.*
+!.env.example
 
 # Local AI assistant settings, instructions, and work notes
 .claude/

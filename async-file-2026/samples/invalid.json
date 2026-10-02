@@ -1,0 +1,5 @@
+{
+  "project": "구문 오류 확인용 가상 자료"
+  "purpose": "쉼표가 빠져 실제 JSON 파싱 오류가 발생하는 샘플",
+  "completed": false
+}

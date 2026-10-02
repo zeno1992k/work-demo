@@ -1,0 +1,17 @@
+{
+  "name": "async-file-2026",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An asynchronous text and JSON file processing demo with a Bootstrap UI and dependency-free processing logic.",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.8"
+  }
+}

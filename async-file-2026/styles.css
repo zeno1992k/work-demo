@@ -1,0 +1,52 @@
+/* Layout and interaction details only; component styling comes from Bootstrap. */
+[hidden] {
+  display: none !important;
+}
+
+#drop-zone.drag-over {
+  border-color: var(--bs-primary) !important;
+  background: var(--bs-primary-bg-subtle);
+}
+
+#drop-zone.is-busy {
+  opacity: .65;
+}
+
+#workspace {
+  scroll-margin-top: 1rem;
+}
+
+.table {
+  min-width: 620px;
+}
+
+.table > :not(caption) > * > * {
+  padding: .65rem .75rem;
+}
+
+.checkbox-column {
+  width: 2.5rem;
+}
+
+.file-cell {
+  min-width: 180px;
+}
+
+.result-cell {
+  min-width: 230px;
+  max-width: 380px;
+}
+
+#result-content {
+  max-height: 360px;
+  overflow: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

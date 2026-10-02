@@ -1,0 +1,18 @@
+{
+  "project": "가상의 바람 도서관",
+  "purpose": "비동기 파일 처리 연습",
+  "tasks": [
+    {
+      "id": 1,
+      "title": "안내문 읽기",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "title": "자료 목록 정리",
+      "completed": false
+    }
+  ],
+  "tags": ["연습", "텍스트", "JSON"],
+  "sourceFilesChanged": false
+}
