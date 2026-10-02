@@ -19,7 +19,6 @@ coverage/
 # Local environment values
 .env
 .env.*
-!.env.example
 
 # Local AI assistant settings, instructions, and work notes
 .claude/
@@ -51,3 +50,57 @@ GEMINI.md
 **/.github/prompts/
 작업상황.md
 작업흐름.md
+
+# Local secrets, credentials, environment values, and private keys
+.env-*
+.env_*
+.envrc
+.aws/
+.ssh/
+.secrets/
+secrets/
+.credentials/
+credentials/
+api-keys/
+api_keys/
+private-keys/
+private_keys/
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+.npmrc
+.pypirc
+.netrc
+_netrc
+.mcp.json
+**/.vscode/mcp.json
+credentials.json
+credentials.yaml
+credentials.yml
+credentials.toml
+credentials.ini
+credentials.txt
+secrets.json
+secrets.yaml
+secrets.yml
+secrets.toml
+secrets.ini
+secrets.txt
+api_key.txt
+api_keys.txt
+api-key.txt
+api-keys.txt
+api_key.json
+api_keys.json
+api-key.json
+api-keys.json
+service-account*.json
+service_account*.json
